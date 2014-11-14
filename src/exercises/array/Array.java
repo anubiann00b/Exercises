@@ -14,7 +14,7 @@ public class Array {
         tester.runTests();
     }
     
-    private int[] arr;
+    private final int[] arr;
     
     public Array(int[] arr) {
         this.arr = arr;
